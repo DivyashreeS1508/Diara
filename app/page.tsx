@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#faf7f2] text-[#24352f]">
-
       {/* =========================================================
           NAVBAR
       ========================================================= */}
@@ -27,7 +26,6 @@ export default function Home() {
 
         {/* HERO CONTENT */}
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center text-center">
-
           {/* LARGE CENTER LOGO */}
           <div className="mb-9 flex justify-center">
             <Image
@@ -64,7 +62,6 @@ export default function Home() {
 
           {/* BUTTONS */}
           <div className="mt-11 flex flex-col items-center justify-center gap-4 sm:flex-row">
-
             <Link
               href="#collections"
               className="rounded-full bg-[#24352f] px-9 py-3.5 text-[15px] font-medium text-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:bg-[#344b43] hover:shadow-md"
@@ -78,7 +75,6 @@ export default function Home() {
             >
               Bridal Rental
             </Link>
-
           </div>
         </div>
       </section>
@@ -92,10 +88,8 @@ export default function Home() {
         className="bg-white px-6 py-24 md:py-28"
       >
         <div className="mx-auto max-w-7xl">
-
           {/* SECTION INTRO */}
           <div className="mb-16 text-center">
-
             <p className="mb-4 text-[13px] font-medium uppercase tracking-[0.3em] text-[#a46b78] md:text-[14px]">
               Discover DIARA
             </p>
@@ -108,12 +102,10 @@ export default function Home() {
               Explore elegant jewellery pieces designed to complement every
               celebration, occasion and beautiful moment.
             </p>
-
           </div>
 
           {/* COLLECTION CARDS */}
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-
             {/* NECKLACES */}
             <Link
               href="/necklaces"
@@ -204,7 +196,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
           </div>
 
           {/* VIEW ALL */}
@@ -216,7 +207,6 @@ export default function Home() {
               View All Collections
             </button>
           </div>
-
         </div>
       </section>
 
@@ -229,12 +219,9 @@ export default function Home() {
         className="bg-[#f3ebe7] px-6 py-24 md:py-28"
       >
         <div className="mx-auto max-w-6xl">
-
           <div className="grid items-center gap-14 md:grid-cols-2">
-
             {/* TEXT */}
             <div>
-
               <p className="mb-4 text-[13px] font-medium uppercase tracking-[0.3em] text-[#a46b78] md:text-[14px]">
                 Bridal Collection
               </p>
@@ -259,14 +246,11 @@ export default function Home() {
                   Enquire For Bridal Rental
                 </Link>
               </div>
-
             </div>
 
             {/* DECORATIVE CARD */}
             <div className="flex min-h-[400px] items-center justify-center rounded-[32px] bg-[#faf7f2] px-8 shadow-sm">
-
               <div className="text-center">
-
                 <p className="text-[13px] uppercase tracking-[0.35em] text-[#a46b78]">
                   DIARA
                 </p>
@@ -278,12 +262,9 @@ export default function Home() {
                 <p className="mx-auto mt-5 max-w-sm text-[16px] leading-7 text-[#766b64]">
                   Jewellery that makes your most precious moments shine.
                 </p>
-
               </div>
             </div>
-
           </div>
-
         </div>
       </section>
 
@@ -296,7 +277,6 @@ export default function Home() {
         className="bg-white px-6 py-24 md:py-28"
       >
         <div className="mx-auto max-w-5xl text-center">
-
           <p className="mb-4 text-[13px] font-medium uppercase tracking-[0.3em] text-[#a46b78] md:text-[14px]">
             About DIARA
           </p>
@@ -314,7 +294,6 @@ export default function Home() {
 
           {/* FEATURES */}
           <div className="mt-14 grid gap-7 sm:grid-cols-3">
-
             <div className="rounded-[28px] bg-[#faf7f2] p-8">
               <h3 className="text-[19px] font-semibold text-[#24352f]">
                 Elegant Designs
@@ -344,9 +323,7 @@ export default function Home() {
                 Elegant pieces made for everyday moments.
               </p>
             </div>
-
           </div>
-
         </div>
       </section>
 
@@ -359,7 +336,6 @@ export default function Home() {
         className="bg-[#24352f] px-6 py-24 text-center text-white"
       >
         <div className="mx-auto max-w-3xl">
-
           <p className="text-[13px] uppercase tracking-[0.3em] text-[#e3b8c2]">
             Get In Touch
           </p>
@@ -374,23 +350,22 @@ export default function Home() {
           </p>
 
           <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-
+            {/* WHATSAPP */}
             <a
-              href="https://wa.me/"
+              href="https://wa.me/919164009475"
               className="rounded-full bg-white px-9 py-3.5 text-[15px] font-medium text-[#24352f] transition duration-300 hover:bg-[#f3ebe7]"
             >
               WhatsApp Us
             </a>
 
+            {/* EMAIL */}
             <a
-              href="mailto:hello@diara.com"
+              href="mailto:diara123579@gmail.com"
               className="rounded-full border border-white/50 px-9 py-3.5 text-[15px] font-medium text-white transition duration-300 hover:bg-white hover:text-[#24352f]"
             >
               Email Us
             </a>
-
           </div>
-
         </div>
       </section>
 
@@ -400,7 +375,6 @@ export default function Home() {
 
       <footer className="bg-[#182720] px-6 py-11 text-center text-white">
         <div className="mx-auto max-w-5xl">
-
           <p className="text-[25px] font-semibold tracking-[0.28em]">
             DIARA
           </p>
@@ -419,10 +393,8 @@ export default function Home() {
           <p className="text-[12px] text-white/50">
             © {new Date().getFullYear()} DIARA Jewellery. All rights reserved.
           </p>
-
         </div>
       </footer>
-
     </main>
   );
 }
